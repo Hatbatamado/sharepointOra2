@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SQLTraining02ModelStoreContainer" CdmEntityContainer="SQLTraining02Entities">
+    <EntitySetMapping Name="IdoBejelentes">
+      <EntityTypeMapping TypeName="SQLTraining02Model.IdoBejelentes">
+        <MappingFragment StoreEntitySet="IdoBejelentes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="JogCimId" ColumnName="JogCimId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jogcim">
+      <EntityTypeMapping TypeName="SQLTraining02Model.Jogcim">
+        <MappingFragment StoreEntitySet="Jogcim">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

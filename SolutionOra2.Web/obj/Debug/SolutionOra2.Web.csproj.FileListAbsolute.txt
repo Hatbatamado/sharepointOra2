@@ -1,0 +1,14 @@
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\obj\Debug\SolutionOra2.Web.csprojResolveAssemblyReference.cache
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\SolutionOra2.Web.dll.config
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\SolutionOra2.Web.dll
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\SolutionOra2.Web.pdb
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\EntityFramework.dll
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\SolutionOra2.BLL.dll
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\SolutionOra2.DAL.dll
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\SolutionOra2.BLL.pdb
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\SolutionOra2.DAL.pdb
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\EntityFramework.xml
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\obj\Debug\SolutionOra2.Web.dll
+C:\Users\Training\Downloads\SolutionOra2\SolutionOra2.Web\obj\Debug\SolutionOra2.Web.pdb

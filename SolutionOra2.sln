@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionOra2.DAL", "SolutionOra2.DAL\SolutionOra2.DAL.csproj", "{442C6726-8DC4-44AE-82ED-E0C8DFB4EA6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionOra2.BLL", "SolutionOra2.BLL\SolutionOra2.BLL.csproj", "{B5BC8087-57AF-4CA4-BBBA-71B1BA64BC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionOra2.Web", "SolutionOra2.Web\SolutionOra2.Web.csproj", "{030116BF-E4AD-4C04-8FFD-C7425FE9C325}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{442C6726-8DC4-44AE-82ED-E0C8DFB4EA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442C6726-8DC4-44AE-82ED-E0C8DFB4EA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442C6726-8DC4-44AE-82ED-E0C8DFB4EA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442C6726-8DC4-44AE-82ED-E0C8DFB4EA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BC8087-57AF-4CA4-BBBA-71B1BA64BC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BC8087-57AF-4CA4-BBBA-71B1BA64BC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BC8087-57AF-4CA4-BBBA-71B1BA64BC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BC8087-57AF-4CA4-BBBA-71B1BA64BC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030116BF-E4AD-4C04-8FFD-C7425FE9C325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030116BF-E4AD-4C04-8FFD-C7425FE9C325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030116BF-E4AD-4C04-8FFD-C7425FE9C325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030116BF-E4AD-4C04-8FFD-C7425FE9C325}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

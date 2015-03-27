@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SQLTraining02Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="IdoBejelentes">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StartDate" Type="datetime" Nullable="false" />
+          <Property Name="JogCimId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Jogcim">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_IdoBejelentes_Jogcim">
+          <End Role="Jogcim" Type="Self.Jogcim" Multiplicity="1" />
+          <End Role="IdoBejelentes" Type="Self.IdoBejelentes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jogcim">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="IdoBejelentes">
+              <PropertyRef Name="JogCimId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SQLTraining02ModelStoreContainer">
+          <EntitySet Name="IdoBejelentes" EntityType="Self.IdoBejelentes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Jogcim" EntityType="Self.Jogcim" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_IdoBejelentes_Jogcim" Association="Self.FK_IdoBejelentes_Jogcim">
+            <End Role="Jogcim" EntitySet="Jogcim" />
+            <End Role="IdoBejelentes" EntitySet="IdoBejelentes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SQLTraining02Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="IdoBejelentes">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="JogCimId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Jogcim" Relationship="SQLTraining02Model.FK_IdoBejelentes_Jogcim" FromRole="IdoBejelentes" ToRole="Jogcim" />
+        </EntityType>
+        <EntityType Name="Jogcim">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="IdoBejelentes" Relationship="SQLTraining02Model.FK_IdoBejelentes_Jogcim" FromRole="Jogcim" ToRole="IdoBejelentes" />
+        </EntityType>
+        <EntityContainer Name="SQLTraining02Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="IdoBejelentes" EntityType="Self.IdoBejelentes" />
+          <EntitySet Name="Jogcim" EntityType="Self.Jogcim" />
+          <AssociationSet Name="FK_IdoBejelentes_Jogcim" Association="SQLTraining02Model.FK_IdoBejelentes_Jogcim">
+            <End Role="Jogcim" EntitySet="Jogcim" />
+            <End Role="IdoBejelentes" EntitySet="IdoBejelentes" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="FK_IdoBejelentes_Jogcim">
+          <End Type="SQLTraining02Model.Jogcim" Role="Jogcim" Multiplicity="1" />
+          <End Type="SQLTraining02Model.IdoBejelentes" Role="IdoBejelentes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jogcim">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="IdoBejelentes">
+              <PropertyRef Name="JogCimId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SQLTraining02ModelStoreContainer" CdmEntityContainer="SQLTraining02Entities">
+          <EntitySetMapping Name="IdoBejelentes">
+            <EntityTypeMapping TypeName="SQLTraining02Model.IdoBejelentes">
+              <MappingFragment StoreEntitySet="IdoBejelentes">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="JogCimId" ColumnName="JogCimId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Jogcim">
+            <EntityTypeMapping TypeName="SQLTraining02Model.Jogcim">
+              <MappingFragment StoreEntitySet="Jogcim">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
