@@ -15,3 +15,21 @@
 .rotator{
     height:550px;
 }
+
+.icons{
+    margin-left:150px;
+    height:40px;
+    /*line-height:40px;*/
+    padding-top:10px;
+}
+
+.whiteicon{
+    color:white;
+    padding-right:15px;
+    cursor:pointer;
+}
+
+.whiteicon:hover{
+    color: rgb(51,152,241);
+    font-size:16px;
+}
