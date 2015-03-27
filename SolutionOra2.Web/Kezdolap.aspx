@@ -26,6 +26,27 @@
             </div>
         </div>
         <div class="header fullWidth">
+            <div class="logoDiv">
+                <div class="logoImage"></div>
+                <div class="title1">Acquire</div>
+                <div class="title2">Business Specialists</div>
+            </div>
+            <div class="menuDiv">
+                <asp:Repeater runat="server" ID="ReaperMenu">
+                    <HeaderTemplate>
+                        <ul class="menu">
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                        <li class="menuitem">
+                            <asp:HyperLink runat="server" ID="MenuItemHL" CssClass="menulink"
+                                Text='<%# Eval("Cim") %>' NavigateUrl='<%# Eval("Link") %>'></asp:HyperLink>
+                        </li>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                        </ul>
+                    </FooterTemplate>
+                </asp:Repeater>
+            </div>
         </div>
         <div class="rotator fullWidth">
         </div>

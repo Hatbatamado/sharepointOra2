@@ -1,35 +1,103 @@
-﻿.fullWidth{
-    width:100%;
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 8pt;
+}
+
+.fullWidth {
+    width: 100%;
 }
 
 .topHeader {
-    height:40px;
+    height: 40px;
     background-color: #333;
 }
 
-.header{
-    height:89px;
+.header {
+    height: 89px;
     background-color: rgb(51,152,214);
 }
 
-.rotator{
-    height:550px;
+.rotator {
+    height: 550px;
 }
 
-.icons{
-    margin-left:150px;
-    height:40px;
+.icons {
+    margin-left: 150px;
+    height: 40px;
     /*line-height:40px;*/
-    padding-top:10px;
+    padding-top: 10px;
 }
 
-.whiteicon{
-    color:white;
-    padding-right:15px;
-    cursor:pointer;
+.whiteicon {
+    color: white;
+    padding-right: 15px;
+    cursor: pointer;
 }
 
-.whiteicon:hover{
-    color: rgb(51,152,241);
-    font-size:16px;
+    .whiteicon:hover {
+        color: rgb(51,152,241);
+        font-size: 16px;
+    }
+
+/*logo*/
+.logoDiv {
+    margin-left: 145px;
+    float: left;
 }
+
+.logoImage {
+    background: url("/Images/logo.png") no-repeat;
+    background-size: 80px;
+    background-position-y: 9px;
+    height: 89px;
+    width: 100px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.title1 {
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 245px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: white;
+}
+
+.title2 {
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    left: 245px;
+    font-size: 9pt;
+    color: white;
+}
+/*******************/
+
+/*Menu*/
+.menuDiv {
+    float: right;
+    padding-top: 35px;
+    margin-right: 100px;
+}
+
+.menu {
+    
+}
+
+    .menu li {
+        color: white;
+        font-size: 12pt;
+        font-weight: bold;
+        list-style: none;
+        display: inline-block;
+        padding-left:15px;
+    }
+    .menu li > a {
+        color: white;
+        font-size: 12pt;
+        font-weight: bold;
+
+    }
+/*******************/

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SolutionOra2.Web.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,16 @@ namespace SolutionOra2.Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                List<MyMenuItem> menuItems = new List<MyMenuItem>();
+                menuItems.Add(new MyMenuItem() { Cim = "Home", Link = "/Kezdolap.aspx" });
+                menuItems.Add(new MyMenuItem() { Cim = "Services", Link = "/Services.aspx" });
+                menuItems.Add(new MyMenuItem() { Cim = "Contact us", Link = "http://www.index.hu" });
 
+                ReaperMenu.DataSource = menuItems;
+                ReaperMenu.DataBind();
+            }
         }
     }
 }
