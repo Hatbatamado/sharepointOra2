@@ -27,13 +27,14 @@ namespace SolutionOra2.Web
             Events.Add(new Event { id = 2, title = "teszt", start = DateTime.Now, end = DateTime.Now.AddHours(5) });
             JavaScriptSerializer js = new JavaScriptSerializer();
             return js.Serialize(Events);
-    }
+        }
 
-    public class Event
-    {
-        public int id { get; set; }
-        public String title { get; set; }
-        public DateTime start { get; set; }
-        public DateTime end { get; set; }
+        public class Event
+        {
+            public int id { get; set; }
+            public String title { get; set; }
+            public DateTime start { get; set; }
+            public DateTime end { get; set; }
+        }
     }
 }

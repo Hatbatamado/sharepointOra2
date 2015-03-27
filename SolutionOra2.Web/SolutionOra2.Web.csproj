@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Kezdolap.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,6 +81,7 @@
     <Content Include="Scripts\fullcalendar.js" />
     <Content Include="Scripts\moment.min.js" />
     <Content Include="Services.asmx" />
+    <Content Include="Styles\MainStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +95,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Kezdolap.aspx.cs">
+      <DependentUpon>Kezdolap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kezdolap.aspx.designer.cs">
+      <DependentUpon>Kezdolap.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdoBejelentesViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

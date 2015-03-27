@@ -1,0 +1,17 @@
+﻿.fullWidth{
+    width:100%;
+}
+
+.topHeader {
+    height:40px;
+    background-color: #333;
+}
+
+.header{
+    height:89px;
+    background-color: rgb(51,152,214);
+}
+
+.rotator{
+    height:550px;
+}
