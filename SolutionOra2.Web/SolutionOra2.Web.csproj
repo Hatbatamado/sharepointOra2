@@ -68,6 +68,7 @@
     <Content Include="Images\logo.png" />
     <Content Include="Images\slide-01.jpeg" />
     <Content Include="Images\slide-02.jpg" />
+    <Content Include="Images\slide-03.jpg" />
     <Content Include="Kezdolap.aspx" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">

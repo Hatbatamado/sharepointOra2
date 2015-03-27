@@ -48,8 +48,47 @@
                 </asp:Repeater>
             </div>
         </div>
-        <div class="rotator fullWidth">
+        <div class="rotator fullWidth" id="rotatorDiv">
+            <div class="rotatorManager"></div>
         </div>
+
+        <script>
+            var imgArray = new Array();
+            var imgUrl = "/Images/slide-01.jpeg";
+            imgArray.push(imgUrl);
+            imgArray.push("/Images/slide-02.jpg");
+            var index = 0;
+
+            rotate();
+            //initRotatorManager(imgArray, index);
+            setInterval(rotate, 5000);
+
+            function rotate() {
+                if (imgArray.length == index)
+                    index = 0;
+                selectImg(index);
+                index++;
+            }
+
+            function initRotatorManager(imgArray, selectedIndex) {
+                $(".rotatorManager").html("");
+                var index = 0;
+                for (var img in imgArray) {
+                    var recentHtml = $(".rotatorManager").html();
+                    var newIcon = "<span onclick='selectImg("+index+")' class=\"glyphicon glyphicon-unchecked rotatoricon\" aria-hidden=\"true\"></span>";
+                    if (selectedIndex == index)
+                        newIcon = "<span onclick='selectImg(" + index + ")' class=\"glyphicon glyphicon-record rotatoricon\" aria-hidden=\"true\"></span>";
+                    $(".rotatorManager").html(recentHtml + newIcon);
+                    index++;
+                }
+            }
+
+            function selectImg(selectedIndex)
+            {
+                $("#rotatorDiv").attr("style", "background: url('" + imgArray[selectedIndex] + "') no-repeat");
+                initRotatorManager(imgArray, selectedIndex);
+            }
+        </script>
     </form>
 </body>
 </html>

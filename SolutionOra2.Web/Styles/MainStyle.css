@@ -83,7 +83,6 @@
 }
 
 .menu {
-    
 }
 
     .menu li {
@@ -92,12 +91,40 @@
         font-weight: bold;
         list-style: none;
         display: inline-block;
-        padding-left:15px;
+        padding-left: 15px;
     }
-    .menu li > a {
-        color: white;
-        font-size: 12pt;
-        font-weight: bold;
 
-    }
+        .menu li > a {
+            color: white;
+            font-size: 12pt;
+            font-weight: bold;
+        }
 /*******************/
+
+
+/*Rotator*/
+.rotator {
+    background-size: 1000px !important;
+    /*background-position-y: 9px;*/
+    height: 550px;
+    background-repeat: no-repeat !important;
+    background-color: lightgray !important;
+    background-position-x: center !important;
+    /*width: 100px;*/
+    /*display: inline-block;*/
+}
+
+.rotatorManager {
+    text-align: center;
+    width: 1000px;
+}
+
+.rotatoricon {
+    color: white;
+    font-size: 16pt;
+    padding-right: 15px;
+    padding-top: 15px;
+    color: rgb(51,152,214);
+    cursor: pointer;
+}
+/******************/
