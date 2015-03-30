@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Attekinto.aspx" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\slide-01.jpeg" />
     <Content Include="Images\slide-02.jpg" />
@@ -89,6 +90,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attekinto.aspx.cs">
+      <DependentUpon>Attekinto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attekinto.aspx.designer.cs">
+      <DependentUpon>Attekinto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Converter.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
