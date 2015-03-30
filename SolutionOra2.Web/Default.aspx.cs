@@ -1,11 +1,13 @@
 ﻿using SolutionOra2.BLL;
 using SolutionOra2.DAL;
+using SolutionOra2.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using SolutionOra2.Web.Utility;
 
 namespace SolutionOra2.Web
 {
@@ -72,6 +74,7 @@ namespace SolutionOra2.Web
                 jogcimBLL.DataSource = jogcimek;
                 jogcimBLL.DataBind();
             }
+            TextBox1.Text = Statusz.Jovahagyva.ToDisplayString();
         }
 
         protected void SaveButton_Click(object sender, EventArgs e)

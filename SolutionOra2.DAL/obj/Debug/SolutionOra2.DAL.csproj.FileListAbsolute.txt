@@ -18,3 +18,13 @@ C:\Users\Nakia\Desktop\bot\sharepointOra2\SolutionOra2.DAL\bin\Debug\EntityFrame
 C:\Users\Nakia\Desktop\bot\sharepointOra2\SolutionOra2.DAL\obj\Debug\SolutionOra2.DAL.csprojResolveAssemblyReference.cache
 C:\Users\Nakia\Desktop\bot\sharepointOra2\SolutionOra2.DAL\obj\Debug\SolutionOra2.DAL.dll
 C:\Users\Nakia\Desktop\bot\sharepointOra2\SolutionOra2.DAL\obj\Debug\SolutionOra2.DAL.pdb
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\bin\Debug\SolutionOra2.DAL.dll.config
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\bin\Debug\SolutionOra2.DAL.dll
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\bin\Debug\SolutionOra2.DAL.pdb
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\obj\Debug\SolutionOra2.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\obj\Debug\SolutionOra2.DAL.dll
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.DAL\obj\Debug\SolutionOra2.DAL.pdb

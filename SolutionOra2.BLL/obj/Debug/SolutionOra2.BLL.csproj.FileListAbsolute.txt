@@ -20,3 +20,14 @@ C:\Users\Nakia\Desktop\bot\sharepointOra2\SolutionOra2.BLL\bin\Debug\EntityFrame
 C:\Users\Nakia\Desktop\bot\sharepointOra2\SolutionOra2.BLL\obj\Debug\SolutionOra2.BLL.csprojResolveAssemblyReference.cache
 C:\Users\Nakia\Desktop\bot\sharepointOra2\SolutionOra2.BLL\obj\Debug\SolutionOra2.BLL.dll
 C:\Users\Nakia\Desktop\bot\sharepointOra2\SolutionOra2.BLL\obj\Debug\SolutionOra2.BLL.pdb
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\bin\Debug\SolutionOra2.BLL.dll
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\bin\Debug\SolutionOra2.BLL.pdb
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\bin\Debug\EntityFramework.dll
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\bin\Debug\SolutionOra2.DAL.dll
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\bin\Debug\SolutionOra2.DAL.pdb
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\bin\Debug\EntityFramework.xml
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\obj\Debug\SolutionOra2.BLL.csprojResolveAssemblyReference.cache
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\obj\Debug\SolutionOra2.BLL.dll
+C:\Users\Training\Downloads\sharepointOra2\SolutionOra2.BLL\obj\Debug\SolutionOra2.BLL.pdb
