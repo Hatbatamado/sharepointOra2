@@ -49,7 +49,10 @@
             </div>
         </div>
         <div class="rotator fullWidth" id="rotatorDiv">
+             <div style="margin-right: auto; margin-left: auto">
             <div class="rotatorManager"></div>
+                 </div>
+            <h1 class="imgH1">We how to close</h1>
         </div>
 
         <script>

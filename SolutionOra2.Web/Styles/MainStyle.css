@@ -3,6 +3,10 @@
     font-size: 8pt;
 }
 
+h1 {
+    color: rgb(51, 152, 214);
+}
+
 .fullWidth {
     width: 100%;
 }
@@ -51,12 +55,11 @@
     background-position-y: 9px;
     height: 89px;
     width: 100px;
-    padding-top: 5px;
     display: inline-block;
 }
 
 .title1 {
-    display: inline-block;
+    display: inline;
     position: absolute;
     top: 60px;
     left: 245px;
@@ -116,6 +119,8 @@
 
 .rotatorManager {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 1000px;
 }
 
@@ -126,5 +131,10 @@
     padding-top: 15px;
     color: rgb(51,152,214);
     cursor: pointer;
+}
+
+.imgH1 {
+    text-align: center;
+    padding-top: 50px;
 }
 /******************/
